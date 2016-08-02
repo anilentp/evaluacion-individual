@@ -1,0 +1,57 @@
+.mt-5{
+	margin-top: 5%;
+}
+.mb-5{
+	margin-bottom: 5%;
+}
+.ml-2{
+	margin-left: 2%;
+}
+.tx-black{
+	color: $black;
+}
+.tx-dark{
+	color: $lightblack;
+}
+.tx-grey{
+	color: $grey;
+}
+.tx-white{
+	color: $white;
+}
+.fw{
+	font-weight: bold;
+}
+.media{
+	margin: 5% 0;
+}
+.media-object{
+	margin-right: 7%;
+	opacity: 0.3;
+}
+.align-left{
+	text-align: left;
+}
+.align-right{
+	text-align: right;
+}
+.align-center{
+	text-align: center;
+}
+.inline{
+	display: inline;
+}
+.block{
+	display: block;
+}
+.inline-block{
+	display: inline-block;
+}
+.icon{
+	font-size: 25px;
+	margin: 3%;
+	&:hover{
+		color: $black;
+		font-weight: bold;
+	}
+}

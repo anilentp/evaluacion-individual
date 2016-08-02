@@ -1,0 +1,109 @@
+.fondo{
+  background-size: cover;
+}
+.fondo-fixed{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.modulo-alto {
+  padding: 1em;
+  min-height: 100vh;
+  text-align: center;
+}
+ .bg-lock{
+ 	background-image: url(../images/back-lock.jpg);	
+ }
+ .bg-white{
+ 	background-color: $white;
+ }
+ .bg-faces{
+ 	background-image: url(../images/bg3.jpg);
+ }
+ .bg-grey{
+ 	background-color: $gris;
+ }
+.bg-dark{
+	background-color: $dark;
+	height: 100%;
+	width: 102%;
+	margin: -1%;
+}
+.navbar-default{
+	background-color: white;
+	border: none;
+}
+.navbar-brand>img{
+	display: inline;
+	max-height: 50px;
+}
+.nav>ul{
+	margin: 5% 0;
+	li:hover{
+		background-color: $dark;
+	} 
+}
+.title{
+	color: $white;
+	text-align: center;
+	margin: 10% auto 4%;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.subtitle{
+	color: $white;
+	text-align: center;
+	margin: 2% 10% 10%;
+}
+.foto-text{
+	display: block;
+	width: 80%;
+}
+.subr{
+	width: 50px;
+	border-top: solid 5px;
+	position: relative;
+    left: -45%
+}
+.foto{
+	padding: 0;
+	&:hover{
+		opacity: 0.4;
+	}
+}
+.offers{
+	@include offer ($gris, 10px solid $white);
+	padding: 0;
+	&:hover{
+		@include oferta ($white, 2px solid $black);
+		
+	}
+}
+.icono{
+	@include icono (1px solid $grey, 2%, 0.5);
+	text-transform: uppercase;
+	text-align: center;
+	height: 125px;
+}
+.btn{
+	background-color: $black;
+	color: $white;
+	text-transform: uppercase;
+	border-radius: 0;
+	padding: 5%;
+	&:hover{
+		background-color: $dark;
+		color: $white;
+		font-weight: bold;
+	}
+}
+.form-group{
+	width: 100%;
+}
+.submit{
+	padding: 2% 5%;
+}
+.ion{
+	font-size: 20px;
+}

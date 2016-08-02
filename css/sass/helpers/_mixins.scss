@@ -1,0 +1,13 @@
+@mixin offer ($bg, $border){
+	background-color: $bg;
+	border: $border;
+}
+@mixin oferta ($bg2, $border){
+	background-color: $bg2;
+	border: $border;
+}
+@mixin icono ($border, $pd, $op){
+	border: $border;
+	padding: $pd;
+	opacity: $op;
+}
